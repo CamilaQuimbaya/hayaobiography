@@ -1,0 +1,202 @@
+body{
+  margin: 0;
+}
+header {
+   text-align: center;
+  background-image: url('fonfo.gif');
+  background-repeat: no-repeat;  
+  background-position: inherit;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 5px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eed7ce2d;
+   
+    
+  }
+  
+  li {
+    float:left;
+    text-align: center;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    padding:40px 20px;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    color: #790C5A;
+  }
+  li a:hover:not(.active) {
+    background-color: #EED7CE;
+  }
+  p{
+    padding-left: 40px;
+    text-align: justify;
+    
+  }
+  #aboutme{
+    background-image: url('pngegg.png');
+    background-repeat: no-repeat;
+  }
+  #primerosaños{
+    background-image: url('negritos2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;  
+  }
+  #Carrera{
+    background-image: url('pngwing.com.png');
+    background-repeat: no-repeat;
+    
+  }
+  #Estiloeinfluencia{
+    background-image: url('nabo.png');
+    background-repeat: no-repeat;
+  }
+ #Premios{
+   background-image: url('toti4.png');
+   background-repeat: no-repeat;
+   background-position: left;
+ }
+ #Thank{
+  text-align: center;
+  background-image: url('thankyou.gif');
+  background-repeat: no-repeat;  
+  background-position: inherit;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 5px;
+ }
+  .active {
+    background-color: #04AA6D;
+  }
+  .titulo1{
+    color: #790C5A;
+    font-family: 'Corinthia', cursive;
+    font-size: 20px;
+    float: right;
+    padding-right: 70px;
+   
+    
+  }
+  .foto{
+    padding-top: 30px;
+    float: left;
+    padding-left: 80px;
+    opacity: 80%;
+    border-radius: 8px;
+    box-shadow:0px 100px 80px rgba(0, 0, 0, 0.07), 0px 36.5016px 29.2013px rgba(0, 0, 0, 0.0482987), 0px 17.7209px 14.1767px rgba(0, 0, 0, 0.0389404), 0px 8.6871px 6.94968px rgba(0, 0, 0, 0.0310596), 0px 3.43489px 2.74791px rgba(0, 0, 0, 0.0217013);
+    }
+  .mi{
+    border-radius: 10%;
+  }       
+  .frase{
+    font-family: 'Corinthia', cursive;
+    font-size: 30px;
+    padding-top: 130px;
+    padding-right: 50px;
+    color: #41032f;
+
+  }
+  .column{
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    position: relative;
+}
+.column img{
+    height: 500px;
+    width: 500px;
+}
+.overlay {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #FF87CA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.column:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: #EAEAEA;
+  font-size: 40px;
+  font-family: 'Corinthia', cursive;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.bio{
+  
+  color: #FF87CA;
+    font-family: 'Corinthia', cursive;
+    font-size: 100px;
+    text-align: center;   
+}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container .box {
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: 'Questrial', sans-serif;
+  color: #d12684;
+
+}
+.hayao{
+    border-radius:10px;
+    width: 500px;
+    height: 400px;
+    padding-top: 30px;
+    opacity: 80%;
+}
+
+div.polaroid {
+  width: 100%;
+  background-color: #EED7CE;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  border-radius: 10%;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+
+}
+.img{
+  border-radius: 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.texto{
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  text-align: justify;
+  color: #d12684;
+  font-size: 20px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
